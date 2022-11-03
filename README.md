@@ -10,3 +10,7 @@ local storage is used
 localStorage.setItem("shoppinglist", JSON.stringify(listItems));
 localStorage.setItem("shoppinglist", JSON.stringify(listItems));
 ```
+
+#### prop drilling :
+
+is a method to pass parameters/props to child components
