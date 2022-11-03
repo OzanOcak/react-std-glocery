@@ -1,0 +1,19 @@
+{
+    "items": [
+        {
+            "id": 1,
+            "checked": false,
+            "item": "cat"
+        },
+        {
+            "id": 2,
+            "checked": false,
+            "item": "dog"
+        },
+        {
+            "id": 3,
+            "checked": false,
+            "item": "bull"
+        }
+    ]
+}

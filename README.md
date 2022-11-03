@@ -33,3 +33,11 @@ const inputRef = useRef();
 <input ref={inputRef}/>
 <button onClick={()=>{inputRef.current.focus()}}/>
 ```
+
+#### json server
+
+```console
+yarn add json-server
+npx json-server-p 3500 -w data/db.json
+curl http://localhost:3500/items
+```
