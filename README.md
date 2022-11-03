@@ -8,9 +8,20 @@ local storage is used
 
 ```javascript
 localStorage.setItem("shoppinglist", JSON.stringify(listItems));
-localStorage.setItem("shoppinglist", JSON.stringify(listItems));
 ```
 
 #### prop drilling :
 
 is a method to pass parameters/props to child components
+
+#### control component :
+
+means components can be control by user via inputs, which are beacically always recieve inputs
+
+instead of array, we fetch data from local storage
+
+```javascript
+const [items, setItems] = useState(
+  JSON.parse(localStorage.getItem("shoppinglist"))
+);
+```
