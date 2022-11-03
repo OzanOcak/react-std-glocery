@@ -25,3 +25,11 @@ const [items, setItems] = useState(
   JSON.parse(localStorage.getItem("shoppinglist"))
 );
 ```
+
+#### useRef()
+
+```javascript
+const inputRef = useRef();
+<input ref={inputRef}/>
+<button onClick={()=>{inputRef.current.focus()}}/>
+```
